@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.moni.aprendiendojuntos.SegundaParteprimerLetura">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <TextView
+            android:id="@+id/textView13"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="184dp"
+            android:text="-Bueno.. yo no diría eso. Mira debajo de tu cama a ver  si encuentras algo que.. Antes de que el abuelo terminara la frase, Tristán salió pitando y bajo el colchón descubrió un cofre con una pequeña llave doradad en la cerradura." />
+
+        <TextView
+            android:id="@+id/textView14"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/textView13"
+            android:layout_marginTop="46dp"
+            android:text="La giró cuiadosamente y dió un grito de alegría, ¡En su interior había por lo menos veinte monedas de chocolate!  -¡Ahora si que eres un pirata con tesoro y todo!- susurró el hombre emocionado. -¡Y tu el mejor abuelo del mundo- dijo Tristán, abrazándole con fuerza." />
+
+        <Button
+            android:id="@+id/button_volver"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginBottom="36dp"
+            android:layout_marginEnd="50dp"
+            android:layout_marginRight="50dp"
+            android:backgroundTint="@android:color/holo_orange_dark"
+            android:text="Volver" />
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/textView12"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:text="Encontró un pañuelo de lunares rojos y se lo anudó en  la cabeza frente al espejo.  -¡Mira abuelo! ¿A que hora sí parezco un pirata de verdad? -¡Por supuesto! Ya sólo te falta encontrar el tesoro. -¿El tesoro?.. En casa no hay nungún tesoro, abuelito- Dijo Tristán decepcionado."
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="51dp" />
+</android.support.constraint.ConstraintLayout>

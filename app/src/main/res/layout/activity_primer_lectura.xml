@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.moni.aprendiendojuntos.PrimerLectura">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="43dp"
+            android:text="¡Tristán quería ser pirata!"
+            android:textColorLink="@android:color/holo_red_dark"
+            android:textSize="24sp" />
+
+        <TextView
+            android:id="@+id/textView5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/textView6"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignStart="@+id/textView6"
+            android:layout_below="@+id/textView3"
+            android:layout_marginEnd="14dp"
+            android:layout_marginRight="14dp"
+            android:layout_marginTop="27dp"
+            android:text="A Tristán le encantaban las historias de piratas. A enudo se imaginaba surcando los mares en un barco con bandera negra de calavera y descubriendo valiosos tesoros en islas lejanas. " />
+
+        <TextView
+            android:id="@+id/textView6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/textView5"
+            android:layout_marginLeft="15dp"
+            android:layout_marginStart="15dp"
+            android:layout_marginTop="31dp"
+            android:text="Una tarde, su abuelo apareció en casa con un pequeño paquete. En su interior, había punturas de cara y un parche para el ojo.  - ¡Hoy voy a convertirte en un pirata! - dijo sonriente." />
+
+        <TextView
+            android:id="@+id/textView11"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/textView6"
+            android:layout_alignStart="@+id/textView6"
+            android:layout_below="@+id/textView6"
+            android:layout_marginTop="39dp"
+            android:text="Tristán se entusiasmó. Se puso el parche y dejó que su abuelo le pintara una barba muy negra y ennormes cejas. Después, salió corriendo a la habitación de sus paddres  y revolvió en un cajón de la cómoda. " />
+
+        <Button
+            android:id="@+id/button_siguiente"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignEnd="@+id/textView5"
+            android:layout_alignParentBottom="true"
+            android:layout_alignRight="@+id/textView5"
+            android:layout_marginBottom="37dp"
+            android:layout_marginEnd="32dp"
+            android:layout_marginRight="32dp"
+            android:text="siguiente." />
+
+    </RelativeLayout>
+</android.support.constraint.ConstraintLayout>

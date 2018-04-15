@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.moni.aprendiendojuntos.Main4Activity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <TextView
+            android:id="@+id/lecturas"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="62dp"
+            android:text="LECTURAS"
+            android:textSize="30sp" />
+
+        <Button
+            android:id="@+id/textTristan"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/lecturas"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="29dp"
+            android:backgroundTint="@android:color/holo_green_light"
+            android:text="Tristán quería ser pirata" />
+
+        <Button
+            android:id="@+id/elmonotito"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textTristan"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="18dp"
+            android:backgroundTint="@android:color/holo_blue_light"
+            android:text="El mono, Tito." />
+
+        <Button
+            android:id="@+id/mifamilia"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/elmonotito"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="11dp"
+            android:backgroundTint="@android:color/holo_purple"
+            android:text="Mi Familia" />
+
+        <Button
+            android:id="@+id/regresar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/mifamilia"
+            android:layout_centerHorizontal="true"
+            android:backgroundTint="@android:color/holo_orange_light"
+            android:text="Regresar" />
+    </RelativeLayout>
+
+</android.support.constraint.ConstraintLayout>

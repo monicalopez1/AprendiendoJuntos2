@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">VamosAAprender</string>
+    <string name="iniciar_sesion">Iniciar Sesión</string>
+    <string name="registro">Registrate</string>
+</resources>
